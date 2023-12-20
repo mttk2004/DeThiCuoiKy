@@ -1,0 +1,33 @@
+Trong lập trình hướng đối tượng, lớp và đối tượng là hai khái niệm cơ bản và quan trọng.
+Dưới đây là sự phân biệt giữa chúng:
+
+Lớp:
+- Lớp là một mô hình, một khuôn mẫu hoặc một bản thiết kế cho các đối tượng.
+Nó định nghĩa các thuộc tính (dữ liệu) và phương thức (hành vi) mà các đối tượng thuộc
+lớp đó có thể có.
+- Lớp chỉ mô tả các đặc điểm chung của một nhóm đối tượng.
+Nó không tồn tại trong bộ nhớ máy tính mà chỉ là một khái niệm trừu tượng.
+
+Đối tượng:
+- Đối tượng là một phiên bản cụ thể của một lớp. Nó là một thực thể hoặc một cái gì đó
+cụ thể mà có thể được tạo ra dựa trên lớp.
+- Đối tượng bao gồm các thuộc tính và phương thức cụ thể đã được định nghĩa trong lớp
+mà nó được tạo ra từ.
+- Mỗi đối tượng có thể có các giá trị khác nhau cho các thuộc tính của nó, nhưng cùng
+chia sẻ các phương thức và thuộc tính chung từ lớp.
+
+Ví dụ thực tế:
+Giả sử chúng ta có một lớp "Car" (Ô tô) trong lập trình hướng đối tượng.
+
+Lớp "Car" sẽ định nghĩa các thuộc tính như "hãng xe", "màu sắc", "số chỗ ngồi" và các
+phương thức như "khởi động", "dừng lại", "tăng tốc"...
+
+Bây giờ, nếu chúng ta tạo ra hai đối tượng từ lớp "Car", ví dụ là "car1" và "car2",
+ta có thể cung cấp các giá trị cụ thể cho mỗi thuộc tính của từng đối tượng.
+Ví dụ: car1 có thuộc tính "hãng xe" là "Toyota", "màu sắc" là "đen" và "số chỗ ngồi" là 5,
+trong khi car2 có thuộc tính "hãng xe" là "Honda", "màu sắc" là "xanh" và "số chỗ ngồi" là 4.
+
+
+Ở đây, "Car" là lớp và "car1" và "car2" là hai đối tượng được tạo ra từ lớp đó.
+Mỗi đối tượng có các giá trị thuộc tính riêng biệt, nhưng chia sẻ cùng một bộ phương thức
+và thuộc tính từ lớp "Car".

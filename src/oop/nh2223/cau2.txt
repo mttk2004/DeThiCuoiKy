@@ -1,0 +1,14 @@
+ Tính kế thừa liên quan đến việc tạo các đối tượng mới bằng cách lấy trực tiếp các thuộc tính
+ và hành vi của các đối tượng khác, sau đó mở rộng hoặc chuyên biệt hóa chúng.
+
+ Tính kế thừa có ở khắp mọi nơi trong cuộc sống thực.
+ Khi chào đời, bạn thừa hưởng gen của cha mẹ và tiếp thu các đặc điểm thể chất từ cả hai người,
+ nhưng sau đó bạn đã bổ sung thêm tính cách của riêng mình.
+
+Hãy xem xét táo và chuối. Mặc dù táo và chuối là những loại trái cây khác nhau nhưng cả hai đều có
+điểm chung là chúng đều là trái cây. Và bởi vì táo và chuối đều là trái cây nên logic đơn giản cho
+chúng ta biết rằng bất cứ điều gì đúng về trái cây thì cũng đúng với táo và chuối. Ví dụ: tất cả
+các loại trái cây đều có tên, màu sắc và kích cỡ.
+
+Chúng ta cũng biết rằng trái cây trải qua quá trình chín để có thể ăn được. Vì táo và
+chuối đều là trái cây nên chúng ta cũng biết rằng táo và chuối sẽ thừa hưởng hành vi chín.

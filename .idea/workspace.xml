@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c1b7190-7235-453d-9498-605ca4a69e0c" name="Changes" comment="" />
+    <list default="true" id="3c1b7190-7235-453d-9498-605ca4a69e0c" name="Changes" comment="first commit!">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/nh2223/DanhSachXe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/nh2223/Xe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/nh2223/XeBuyt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/nh2223/XeTai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/nh2223/cau1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EndpointsView">
+    <option name="showSidePanel" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -34,11 +53,24 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/KIET/IdeaProjects/DeThiCuoiKy/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DanhSachXe">
+    <configuration name="DanhSachXe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.nh2223.DanhSachXe" />
+      <module name="DeThiCuoiKy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.nh2223.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DeThiCuoiKy" />
@@ -46,8 +78,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XeBuyt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.nh2223.XeBuyt" />
+      <module name="DeThiCuoiKy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.nh2223.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DanhSachXe" />
+        <item itemvalue="Application.XeBuyt" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -60,12 +107,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703074135658</updated>
-      <workItem from="1703074136663" duration="534000" />
+      <workItem from="1703074136663" duration="6621000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit!">
+      <option name="closed" value="true" />
+      <created>1703074778470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703074778470</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit!">
+      <option name="closed" value="true" />
+      <created>1703075069715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703075069715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -77,5 +156,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
