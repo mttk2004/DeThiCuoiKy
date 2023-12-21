@@ -1,6 +1,9 @@
 package oop.nh2223;
 
 
+import java.util.Scanner;
+
+
 /**
  * Author: Kiet Mai Tran Tuan
  * Current user system login name: KIET
@@ -39,6 +42,18 @@ public class XeBuyt extends Xe {
         this.doDaiLoTrinh = doDaiLoTrinh;
     }
     
+    
+    public void nhapThongTin() {
+        super.nhapThongTin();
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Nhap tuyen: ");
+        setTuyen(Short.parseShort(scanner.nextLine()));
+        
+        System.out.print("Nhap do dai lo trinh: ");
+        setDoDaiLoTrinh(Double.parseDouble(scanner.nextLine()));
+    }
     
     @Override
     public String toString() {

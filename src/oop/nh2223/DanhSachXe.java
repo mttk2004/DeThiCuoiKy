@@ -25,7 +25,7 @@ public class DanhSachXe {
         setSoXe(danhSachXe.size());
     }
     
-    ArrayList<Xe> getDanhSachXe() {
+    public static ArrayList<Xe> getDanhSachXe() {
         return danhSachXe;
     }
     
@@ -33,7 +33,7 @@ public class DanhSachXe {
         DanhSachXe.soXe = soXe;
     }
     
-    int getSoXe() {
+    public static int getSoXe() {
         return soXe;
     }
     
@@ -44,16 +44,29 @@ public class DanhSachXe {
     
     public static void tinhTienQuaTram() {
         for (var xe : danhSachXe) {
+            if (xe instanceof XeBuyt)
+                System.out.print("Xe buyt: ");
+            else if (xe instanceof XeTai)
+                System.out.print("Xe tai: ");
+            
             System.out.println(xe.soTienQuaTram());
         }
     }
     
     public static void main(String[] args) {
-        var bus1 = new XeBuyt("", "", "", (short) 31, 13.4);
-        var tai1 = new XeTai("", "", "", 21.4);
+        Xe bus1 = new XeBuyt("", "", "", (short) 31, 13.4);
+        Xe tai1 = new XeTai("", "", "", 21.4);
         
-        themXe(bus1);
-        themXe(tai1);
+        System.out.println(getSoXe());
+        themXe(bus1); System.out.println(getSoXe());
+        themXe(tai1); System.out.println(getSoXe());
+        
+        tinhTienQuaTram();
+        
+        XeTai tai2 = new XeTai();
+        tai2.nhapThongTin();
+        
+        themXe(tai2); System.out.println(getSoXe());
         
         tinhTienQuaTram();
     }

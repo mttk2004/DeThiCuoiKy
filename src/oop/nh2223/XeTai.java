@@ -1,6 +1,9 @@
 package oop.nh2223;
 
 
+import java.util.Scanner;
+
+
 /**
  * Author: Kiet Mai Tran Tuan
  * Current user system login name: KIET
@@ -27,6 +30,16 @@ public class XeTai extends Xe {
     
     public void setTrongTai(double trongTai) {
         this.trongTai = trongTai;
+    }
+    
+    
+    public void nhapThongTin() {
+        super.nhapThongTin();
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Nhap trong tai: ");
+        setTrongTai(Double.parseDouble(scanner.nextLine()));
     }
     
     @Override

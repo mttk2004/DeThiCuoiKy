@@ -1,0 +1,46 @@
+a)
+- Trong lập trình hướng đối tượng, kế thừa là khái niệm cho phép một lớp (lớp con) tự động có
+tất cả các thuộc tính và phương thức của một lớp khác (lớp cha) và có thể mở rộng hoặc ghi đè
+lại chúng để thêm các đặc điểm mới hoặc thay đổi hành vi.
+
+- Tính kế thừa có ở khắp mọi nơi trong cuộc sống thực.
+Khi chào đời, bạn thừa hưởng gen của cha mẹ và tiếp thu các đặc điểm thể chất từ cả hai người,
+nhưng sau đó bạn đã bổ sung thêm tính cách của riêng mình.
+
+- Trong Java, lớp con vẫn có thể kế thừa các thành phần private từ lớp cha, nhưng nó không có quyền
+truy cập trực tiếp để sử dụng hay sửa đổi các thành phần đó .
+
+- Về constructor, khác với các method bình thường, lớp con không kế thừa constructor của lớp cha.
+Mỗi lớp con cần phải xác định constructor của riêng mình. Tuy nhiên, lớp con có thể gọi đến
+constructor của lớp cha thông qua từ khóa super.
+
+b)
+Trong lập trình hướng đối tượng, overriding (ghi đè) là kỹ thuật cho phép một lớp con định nghĩa lại
+một phương thức đã có mặt ở lớp cha. Điều này có nghĩa là, khi một lớp con kế thừa từ một lớp
+cha, nó có thể "ghi đè" lên các phương thức của lớp cha để thay đổi hành vi của chúng.
+
+Overriding cho phép lớp con có thể thực hiện riêng biệt cho phương thức mà lớp cha đã cung cấp.
+Điều này giúp tăng tính linh hoạt và tái sử dụng code, vì lớp con có thể sử dụng lại các phương
+thức của lớp cha nhưng vẫn có thể thay đổi hành vi của chúng theo nhu cầu.
+
+Ví dụ, giả sử bạn có một lớp `DongVat` với một phương thức `keu()`.
+Bạn có thể tạo một lớp `Cho` kế thừa từ `DongVat` và ghi đè phương thức `keu()` để thay đổi
+cách thức mà phương thức `keu()` hoạt động.
+
+
+class DongVat {
+    void keu() {
+        System.out.println("Động vật kêu");
+    }
+}
+
+class Cho extends DongVat {
+    @Override
+    void keu() {
+        System.out.println("Chó sủa");
+    }
+}
+
+Trong ví dụ trên, lớp `Cho` ghi đè phương thức `keu()` của lớp `DongVat`.
+Khi phương thức `keu()` được gọi trên một đối tượng của lớp `Cho`,
+nó sẽ in ra "Chó sủa" thay vì "Động vật kêu".
