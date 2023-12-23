@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      table {
+        border-spacing: 5px;
+        border: 3px solid red;
+      }
+      td {
+        border: 1px solid black;
+      }
+      th {
+        background-color: #777;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+
+      .td-align-left {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="7">kế hoạch đào tạo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">STT</td>
+          <td rowspan="2">Tên môn</td>
+          <td colspan="2">Số tiết</td>
+          <td rowspan="2">HK1</td>
+          <td rowspan="2">HK2</td>
+          <td rowspan="2">Ghi chú</td>
+        </tr>
+        <tr>
+          <td>LT</td>
+          <td>TH</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Chính trị</td>
+          <td>30</td>
+          <td>30</td>
+          <td>x</td>
+          <td></td>
+          <td rowspan="2">2 tuần đầu HK</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Thể dục</td>
+          <td>10</td>
+          <td>30</td>
+          <td></td>
+          <td>x</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Anh văn</td>
+          <td>90</td>
+          <td>0</td>
+          <td>x</td>
+          <td></td>
+          <td rowspan="3">15 tuần</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Tin học</td>
+          <td>30</td>
+          <td>60</td>
+          <td>x</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="td-align-left">5</td>
+          <td>Toán</td>
+          <td>60</td>
+          <td>30</td>
+          <td></td>
+          <td>x</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

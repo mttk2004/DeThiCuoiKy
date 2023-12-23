@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1b7190-7235-453d-9498-605ca4a69e0c" name="Changes" comment="first commit!">
-      <change afterPath="$PROJECT_DIR$/src/oop/nh2021/cau1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/nh2021/cau2/Cau2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/nh2021/cau3/Cau3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/nh2021/cau4/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/nh2021/cau4/Fullname.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/nh2021/cau4/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/nh2223/DanhSachXe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/nh2223/DanhSachXe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/nh2223/XeBuyt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/nh2223/XeBuyt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/nh2223/XeTai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/nh2223/XeTai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/nh2223/cau2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/nh2223/cau2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/KIET/IdeaProjects/DeThiCuoiKy/src/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.indent",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -150,7 +140,11 @@
       <updated>1703074135658</updated>
       <workItem from="1703074136663" duration="7748000" />
       <workItem from="1703125519935" duration="5775000" />
-      <workItem from="1703138981856" duration="1861000" />
+      <workItem from="1703138981856" duration="2729000" />
+      <workItem from="1703145266392" duration="191000" />
+      <workItem from="1703145466959" duration="143000" />
+      <workItem from="1703145618623" duration="293000" />
+      <workItem from="1703145925869" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <option name="closed" value="true" />

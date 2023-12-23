@@ -1,0 +1,5 @@
+- Khi bạn nhập một địa chỉ web vào trình duyệt của mình, trình duyệt sẽ gửi yêu cầu 
+đến máy chủ web chứa trang web đó.
+- Trình duyệt sẽ kết nối với máy chủ thông qua địa chỉ IP (được lấy từ tên miền đã nhập).
+- Máy chủ sau đó sẽ phản hồi và trả về mã HTML, CSS, JavaScript và các tài nguyên như 
+ảnh, video. Trình duyệt sẽ phân tích mã HTML và hiển thị trang web cho bạn.
