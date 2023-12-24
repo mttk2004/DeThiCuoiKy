@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="">
+    <form action="" id="frmPhieudatphong">
       <div>
         <label for="txtHoten">Họ tên *</label>
         <input type="text" name="txtHoten" id="txtHoten" />
@@ -22,15 +22,43 @@
       <div>
         <label for="cboMucgia">Chọn mức giá</label>
         <select name="cboMucgia" id="cboMucgia">
-          <option value="thuong">loại thường</option>
-          <option value="sangtrong">loại sang trọng</option>
-          <option value="dacbiet">loại đặc biệt</option>
+          <option value="a">loại thường</option>
+          <option value="b">loại sang trọng</option>
+          <option value="c">loại đặc biệt</option>
         </select>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div>
+        <label for="dateNgaythue">Ngày thuê</label>
+        <input type="date" name="dateNgaythue" id="dateNgaythue" />
+      </div>
+      <div>
+        <label for="dateNgaytra">Ngày trả</label>
+        <input type="date" name="dateNgaytra" id="dateNgaytra" />
+      </div>
+      <div>
+        <span>Dịch vụ đi kèm</span>
+        <div>
+          <input type="checkbox" name="chkAnsang" id="chkAnsang" />
+          <label for="chkAnsang">Ăn sáng</label>
+        </div>
+        <div>
+          <input type="checkbox" name="chkGiatui" id="chkGiatui" />
+          <label for="chkGiatui">Giặt ủi</label>
+        </div>
+        <div>
+          <input type="checkbox" name="chkBaobuoisang" id="chkBaobuoisang" />
+          <label for="chkBaobuoisang">Báo buổi sáng</label>
+        </div>
+      </div>
+      <div>
+        <label for="txtTienthuephong">Tiền thuê phòng</label>
+        <input type="text" name="txtTienthuephong" id="txtTienthuephong" />
+        VNĐ
+      </div>
+      <button id="btnTinhdongia">Tính đơn giá</button>
+      <input type="submit" id="subDangky" value="Đăng ký" />
     </form>
+
+    <script src="cau3.js"></script>
   </body>
 </html>
